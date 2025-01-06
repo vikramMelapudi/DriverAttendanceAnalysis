@@ -14,8 +14,8 @@ def is_similar(first, second, ratio):
 
 
 # read by default 1st sheet of an excel file
-OSRTC_df = pd.read_excel('Dec Attendence.xlsx')
-INTAG_df = pd.read_excel('Driver Attendance Sheet-01-Dec-31-Dec.xlsx')
+OSRTC_df = pd.read_excel('../data/customer/Dec Attendence.xlsx')
+INTAG_df = pd.read_excel('../data/attendance/Driver Attendance Sheet-01-Dec-31-Dec.xlsx')
 
 #OS_LIST = ['1','2','3','4','5','6','7','8','9',10,'11','12','13','14','15','16','17','18','19',20,'21']
 #IN_LIST = ['01-Dec','02-Dec','03-Dec','04-Dec','05-Dec','06-Dec','07-Dec','08-Dec','09-Dec','10-Dec','11-Dec','12-Dec','13-Dec','14-Dec','15-Dec','16-Dec','17-Dec','18-Dec','19-Dec','20-Dec','21-Dec']
@@ -27,7 +27,7 @@ IN_LIST = ['10-Dec','11-Dec','12-Dec','13-Dec','14-Dec','15-Dec','16-Dec','17-De
 #print(OSRTC_df[['Name of SO', 'Total']])
 #print(INTAG_df[['Driver Name', 'Total Working Days']])
 
-with open('Result.csv', 'w', newline='') as file:
+with open('../results/Result.csv', 'w', newline='') as file:
 
 	writer = csv.writer(file)
 	field = ["OSRTC Name", "Intangle Name", "Accuracy", "Match Days", "Miss Match Days"]
