@@ -2,7 +2,10 @@
 Scripts and data to analyze performance of driver attendance
 
 ## Directories:
-code/           : scripts, codes for analysis
-results/        : any results, summary
-data/customer/  : to store customer data
-data/attendnce/ : to upload our exported attendance data 
+<table>
+<tr><th>Directory</th><th>Contents</th></tr>
+<tr><td>code/</td><td>scripts, codes, notebooks for analysis</td></tr>
+<tr><td>results/</td><td>any results, summary</td></tr>
+<tr><td>data/customer/</td><td>store customer data</td></tr>
+<tr><td>data/attendnce/</td><td>upload our exported attendance data </td></tr>
+</table>
