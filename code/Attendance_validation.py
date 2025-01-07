@@ -53,7 +53,7 @@ with open('../results/Result.csv', 'w', newline='') as file:
 				
 				#print(INTAG_df['01-Dec'][in_drv_cnt])
 				for day_cnt in range(0,len(OS_LIST)):
-					OS_A = OSRTC_df[OS_LIST[day_cnt]][in_drv_cnt]
+					OS_A = OSRTC_df[OS_LIST[day_cnt]][os_drv_cnt]
 					#print(OS_A)
 					IN_A = INTAG_df[IN_LIST[day_cnt]][in_drv_cnt]
 					#print(float(IN_A[0:2]))
